@@ -21,7 +21,7 @@ pip install opencv-python
 
 #### Import module
 
-<!--> Import <-->
+<!-- Import -->
 ```py
 from scipy.spatial import distance
 from imutils import face_utils
@@ -33,7 +33,7 @@ import cv2
 
 #### Import sound
 
-<!--> Take sound file <-->
+<!-- Take sound file -->
 ```py
 mixer.init()
 mixer.music.load("./Sound/music.wav")
@@ -41,7 +41,7 @@ mixer.music.load("./Sound/music.wav")
 
 #### Make function to calculate the EAR
 
-<!--> make calculated EAR code <-->
+<!-- make calculated EAR code -->
 ```py
 def eye_aspect_ratio(eye):
 	A = distance.euclidean(eye[1], eye[5])
