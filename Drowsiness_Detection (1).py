@@ -7,7 +7,7 @@ import cv2
 
 
 mixer.init()
-mixer.music.load("music.wav")
+mixer.music.load("./Sound/music.wav")
 
 def eye_aspect_ratio(eye):
 	A = distance.euclidean(eye[1], eye[5])
