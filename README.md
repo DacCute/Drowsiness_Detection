@@ -5,7 +5,7 @@
 
 ## Install library
 
-<!--> all libray need in project <-->
+<!-- all libray need in project -->
 ```cmd
 pip install spatial
 pip install imutils
@@ -17,7 +17,7 @@ pip install opencv-python
 
 ## Working
 
-<!--> what to do during the project <-->
+<!-- what to do during the project -->
 
 #### Import module
 
